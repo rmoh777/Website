@@ -104,13 +104,40 @@
         /* Responsive adjustments */
         @media (max-width: 768px) {
             h1 {
-                font-size: 3rem;
+                font-size: 2.2rem;
+            }
+            .tableau-container {
+                height: 350px;
+                overflow-x: auto;
+                -webkit-overflow-scrolling: touch;
+            }
+            .tableau-section {
+                margin-top: 60vh;
+                padding: 0.5rem;
+            }
+            .footer {
+                font-size: 0.95rem;
+                padding: 0.7rem;
+            }
+            .construction-message {
+                font-size: 1.1rem;
             }
         }
 
         @media (max-width: 480px) {
             h1 {
-                font-size: 2.5rem;
+                font-size: 1.5rem;
+            }
+            .title-container {
+                margin-bottom: 1rem;
+            }
+            .footer {
+                font-size: 0.9rem;
+                padding: 0.5rem;
+            }
+            .tableau-section {
+                margin-top: 40vh;
+                padding: 0.2rem;
             }
         }
 
@@ -141,6 +168,8 @@
             background-color: #fff;
             border-radius: 8px;
             overflow: hidden;
+            overflow-x: auto;
+            -webkit-overflow-scrolling: touch;
         }
 
         @media (max-width: 768px) {
